@@ -143,8 +143,8 @@ COLLATE = utf8mb4_bin;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `carrotaction`.`user` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
-  `user_id` VARCHAR(45) NOT NULL,
-  `user_pw` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
   `location` VARCHAR(45) NOT NULL,
   `nickname` VARCHAR(45) NOT NULL,
   `created_at` DATETIME NULL DEFAULT NULL,
